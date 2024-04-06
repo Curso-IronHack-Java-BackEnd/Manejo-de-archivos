@@ -30,5 +30,6 @@ public class Main {
         //Hemos salido del bucle y el trabajo esta terminado
         System.out.println("Finished job! Check the result in: result.txt");
         scan.close(); //Cerramos el Scanner
+        writer.close(); //Cerramos el writer
     }
 }
